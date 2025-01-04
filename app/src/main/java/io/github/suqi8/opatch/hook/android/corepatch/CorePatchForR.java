@@ -1,4 +1,4 @@
-package io.github.suqi8.opatch.hook.corepatch;
+package io.github.suqi8.opatch.hook.android.corepatch;
 
 
 import android.annotation.TargetApi;
@@ -8,7 +8,6 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.os.Build;
-import android.util.Log;
 
 import io.github.suqi8.opatch.BuildConfig;
 
