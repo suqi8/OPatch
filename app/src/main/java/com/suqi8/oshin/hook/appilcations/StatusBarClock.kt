@@ -1,5 +1,6 @@
 package com.suqi8.oshin.hook.appilcations
 
+
 import android.annotation.SuppressLint
 import android.content.Context
 import android.os.Handler
@@ -32,6 +33,7 @@ class StatusBarClock : YukiBaseHooker() {
     val DualRow = prefs("systemui\\status_bar_clock").getBoolean("DualRow", false)
     var nowTime: Date? = null
     var FontSize = prefs("systemui\\status_bar_clock").getFloat("ClockSize", 0f)
+    //var updateSpeed = prefs("settings").getInt("Status_Bar_Time_ClockUpdateSpeed", 0)
     var updateSpeed = prefs("systemui\\status_bar_clock").getInt("ClockUpdateSpeed", 0)
     var newline = ""
     var customClockStyle = prefs("systemui\\status_bar_clock").getString("CustomClockStyle", "HH:mm")
@@ -192,7 +194,7 @@ class StatusBarClock : YukiBaseHooker() {
                             if (this.resources.getResourceEntryName(id) != "clock") return@after
                         }
                         nowTime = Calendar.getInstance().time
-                        result = getCustomDate(context!!, customClockStyle).replace("\\n", "\n")
+                        result = getCustomDate(customClockStyle)//.replace("\\n", "\n")
                     }
                 }
             }
@@ -217,8 +219,8 @@ class StatusBarClock : YukiBaseHooker() {
     }
 
     @SuppressLint("SimpleDateFormat")
-    private fun getCustomDate(context: Context, format: String): String {
-        return SimpleDateFormat(format).format(nowTime!!)
+    private fun getCustomDate(format: String): String {
+        return SimpleDateFormat(format).format(nowTime)
     }
 
 
