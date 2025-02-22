@@ -1,5 +1,21 @@
 # Changelog
 
+## [15.1.0](https://github.com/suqi8/OShin/compare/v15.0.0...v15.1.0) (2025-02-22)
+
+
+### Features
+
+* **app:** 优化功能页面性能 ([1047471](https://github.com/suqi8/OShin/commit/10474717268a2b8677bf0cf4d5b0f89ede7af092))
+* **app:** 修改版本号逻辑，并提交忘了提交的东西 ([bbd9c69](https://github.com/suqi8/OShin/commit/bbd9c69bd642b00c861102cc40b756be27d9ac2b))
+* **app:** 再次提交忘了提交的东西 ([ce7bd09](https://github.com/suqi8/OShin/commit/ce7bd096b2b0ec1e68d1533fb6e1ffa3a6a46b99))
+* **app:** 在关于页面添加QAuxiliary开源项目 ([0fc4744](https://github.com/suqi8/OShin/commit/0fc4744399e854c9202108545ff8e85d90ac0e22))
+* **app:** 添加关闭低电量流体云 感谢Telegram@psychosispy ([8e47f38](https://github.com/suqi8/OShin/commit/8e47f3876036a9a024e7ad527c74184e1cab69ec))
+* **app:** 添加移除通知勿扰通知 ([9923bcd](https://github.com/suqi8/OShin/commit/9923bcd1bd3e547baa01d74f8eeaeb2cfdc59893))
+* **app:** 添加隐藏启动器图标功能 ([ca58fc4](https://github.com/suqi8/OShin/commit/ca58fc4a87db4cf8d159fcb4d1d621772617c014))
+* **gradle:** Update dependency versions ([222fe83](https://github.com/suqi8/OShin/commit/222fe833049d4df43153342ed7bfe1ddad1edb48))
+* **indicator:** 修复功耗指示器的自定义字体大小 ([67cac35](https://github.com/suqi8/OShin/commit/67cac350a54e101426ae8ddfb465080f5fea3971))
+* **systemui:** 添加 移除开发者选项通知 ([d26ff48](https://github.com/suqi8/OShin/commit/d26ff486773cf8a36c53a0a2dd8debd2dc18b752))
+
 ## [1.2.0](https://github.com/suqi8/OPatch/compare/v1.1.0...v1.2.0) (2025-01-03)
 
 
